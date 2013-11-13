@@ -7,6 +7,7 @@ Homework
 + read this about Arrays: http://ruby.learncodethehardway.org/book/ex34.html
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))  do merge section
 + Write down the three stand up questions
+
 + Write your first blog post
   - In 3 weeks, you'll have a Sinatra blog
   - Let's create some content to prepare!

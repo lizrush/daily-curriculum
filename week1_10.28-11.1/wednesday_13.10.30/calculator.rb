@@ -22,6 +22,7 @@ def square(first)
  	Math.sqrt(first)
 end
 
+
 puts "+, -, *, /, find the exponent, or find the square root?"
 action = gets.chomp.downcase
 
@@ -58,6 +59,7 @@ else
 		single_num = singluar_input.to_i
 end		
 
+<<<<<<< HEAD
 if action == "+" # without chomp action is "add/n"
   result = "#{first_num} + #{second_num} = #{add_numbers(first_num, second_num)}"
 elsif action == "-"
@@ -70,8 +72,14 @@ elsif action == "find the exponent"
 	result = "#{first_num} to the power of #{second_num} = #{expo(first_num, second_num)}"
 elsif action == "find the square root"
 	result = "the square root of #{single_num} = #{square(single_num)}" 
+=======
+if action == "add"
+  result = add_numbers(first_num, second_num)
+elsif action == "subtract"
+  result = subtract_numbers(first_num, second_num)
+>>>>>>> ea73db9ab627b83cae2500d88a41a658274ce9f9
 else
-  result = "Sorry, I don't know how to do that, Dave."
+  result = "Sorry, I don't know how to do that,!"
 end
 
 puts result
